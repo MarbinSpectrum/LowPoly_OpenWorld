@@ -1,0 +1,927 @@
+newmtl im_f0000_c_9400
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_f0000_c_9400.png
+map_tr textures/im_f0000_c_9400.png
+
+newmtl im_f0000_c_8c00
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_f0000_c_8c00.png
+map_tr textures/im_f0000_c_8c00.png
+
+newmtl im_120000_c_cc00
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_120000_c_cc00.png
+map_tr textures/im_120000_c_cc00.png
+
+newmtl im_50000_c_7000
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_50000_c_7000.png
+map_tr textures/im_50000_c_7000.png
+
+newmtl im_a0000_c_5400
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_a0000_c_5400.png
+map_tr textures/im_a0000_c_5400.png
+
+newmtl im_f0000_c_9000
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_f0000_c_9000.png
+map_tr textures/im_f0000_c_9000.png
+
+newmtl im_100000_c_a400
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_100000_c_a400.png
+map_tr textures/im_100000_c_a400.png
+
+newmtl im_20000_c_4800
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_20000_c_4800.png
+map_tr textures/im_20000_c_4800.png
+
+newmtl im_40000_c_8400
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_40000_c_8400.png
+map_tr textures/im_40000_c_8400.png
+
+newmtl im_b0000_c_5c00
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_b0000_c_5c00.png
+map_tr textures/im_b0000_c_5c00.png
+
+newmtl im_120000_c_d000
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_120000_c_d000.png
+map_tr textures/im_120000_c_d000.png
+
+newmtl im_a0000_c_5800
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_a0000_c_5800.png
+map_tr textures/im_a0000_c_5800.png
+
+newmtl im_x_0_c_10800
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_x_0_c_10800.png
+map_tr textures/im_x_0_c_10800.png
+
+newmtl im_50000_c_5000
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_50000_c_5000.png
+map_tr textures/im_50000_c_5000.png
+
+newmtl im_c0000_c_6400
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_c0000_c_6400.png
+map_tr textures/im_c0000_c_6400.png
+
+newmtl im_c0000_c_6800
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_c0000_c_6800.png
+map_tr textures/im_c0000_c_6800.png
+
+newmtl im_d0000_c_10000
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_d0000_c_10000.png
+map_tr textures/im_d0000_c_10000.png
+
+newmtl im_d0000_c_10400
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_d0000_c_10400.png
+map_tr textures/im_d0000_c_10400.png
+
+newmtl im_30000_c_2c00
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_30000_c_2c00.png
+map_tr textures/im_30000_c_2c00.png
+
+newmtl im_40000_c_4c00
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_40000_c_4c00.png
+map_tr textures/im_40000_c_4c00.png
+
+newmtl im_40000_c_3000
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_40000_c_3000.png
+map_tr textures/im_40000_c_3000.png
+
+newmtl im_e0000_c_bc00
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_e0000_c_bc00.png
+map_tr textures/im_e0000_c_bc00.png
+
+newmtl im_100000_c_9800
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_100000_c_9800.png
+map_tr textures/im_100000_c_9800.png
+
+newmtl im_b0000_c_6000
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_b0000_c_6000.png
+map_tr textures/im_b0000_c_6000.png
+
+newmtl im_20000_c_8000
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_20000_c_8000.png
+map_tr textures/im_20000_c_8000.png
+
+newmtl im_120000_c_b800
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_120000_c_b800.png
+map_tr textures/im_120000_c_b800.png
+
+newmtl im_100000_c_9c00
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_100000_c_9c00.png
+map_tr textures/im_100000_c_9c00.png
+
+newmtl im_100000_c_a000
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_100000_c_a000.png
+map_tr textures/im_100000_c_a000.png
+
+newmtl im_e0000_c_7c00
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_e0000_c_7c00.png
+map_tr textures/im_e0000_c_7c00.png
+
+newmtl im_0_c_0
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_0_c_0.png
+map_tr textures/im_0_c_0.png
+
+newmtl im_10000_c_d00
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_10000_c_d00.png
+map_tr textures/im_10000_c_d00.png
+
+newmtl im_50000_c_3400
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_50000_c_3400.png
+map_tr textures/im_50000_c_3400.png
+
+newmtl im_10000_c_1400
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_10000_c_1400.png
+map_tr textures/im_10000_c_1400.png
+
+newmtl im_10000_c_f00
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_10000_c_f00.png
+map_tr textures/im_10000_c_f00.png
+
+newmtl im_10000_c_1900
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_10000_c_1900.png
+map_tr textures/im_10000_c_1900.png
+
+newmtl im_10000_c_1a00
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_10000_c_1a00.png
+map_tr textures/im_10000_c_1a00.png
+
+newmtl im_120000_c_11000
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_120000_c_11000.png
+map_tr textures/im_120000_c_11000.png
+
+newmtl im_0_c_1100
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_0_c_1100.png
+map_tr textures/im_0_c_1100.png
+
+newmtl im_130000_c_d800
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_130000_c_d800.png
+map_tr textures/im_130000_c_d800.png
+
+newmtl im_120000_c_f400
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_120000_c_f400.png
+map_tr textures/im_120000_c_f400.png
+
+newmtl im_10000_c_2000
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_10000_c_2000.png
+map_tr textures/im_10000_c_2000.png
+
+newmtl im_10000_c_2200
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_10000_c_2200.png
+map_tr textures/im_10000_c_2200.png
+
+newmtl im_10000_c_b00
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_10000_c_b00.png
+map_tr textures/im_10000_c_b00.png
+
+newmtl im_110000_c_ac00
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_110000_c_ac00.png
+map_tr textures/im_110000_c_ac00.png
+
+newmtl im_10000_c_600
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_10000_c_600.png
+map_tr textures/im_10000_c_600.png
+
+newmtl im_0_c_900
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_0_c_900.png
+map_tr textures/im_0_c_900.png
+
+newmtl im_10000_c_1000
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_10000_c_1000.png
+map_tr textures/im_10000_c_1000.png
+
+newmtl im_e0000_c_12000
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_e0000_c_12000.png
+map_tr textures/im_e0000_c_12000.png
+
+newmtl im_e0000_c_f000
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_e0000_c_f000.png
+map_tr textures/im_e0000_c_f000.png
+
+newmtl im_0_c_1300
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_0_c_1300.png
+map_tr textures/im_0_c_1300.png
+
+newmtl im_d0000_c_6c00
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_d0000_c_6c00.png
+map_tr textures/im_d0000_c_6c00.png
+
+newmtl im_d0000_c_7400
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_d0000_c_7400.png
+map_tr textures/im_d0000_c_7400.png
+
+newmtl im_130000_c_d400
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_130000_c_d400.png
+map_tr textures/im_130000_c_d400.png
+
+newmtl im_130000_c_dc00
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_130000_c_dc00.png
+map_tr textures/im_130000_c_dc00.png
+
+newmtl im_130000_c_e000
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_130000_c_e000.png
+map_tr textures/im_130000_c_e000.png
+
+newmtl im_130000_c_12800
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_130000_c_12800.png
+map_tr textures/im_130000_c_12800.png
+
+newmtl im_130000_c_f800
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_130000_c_f800.png
+map_tr textures/im_130000_c_f800.png
+
+newmtl im_0_c_1200
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_0_c_1200.png
+map_tr textures/im_0_c_1200.png
+
+newmtl im_0_c_800
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_0_c_800.png
+map_tr textures/im_0_c_800.png
+
+newmtl im_0_c_300
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_0_c_300.png
+map_tr textures/im_0_c_300.png
+
+newmtl im_110000_c_a800
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_110000_c_a800.png
+map_tr textures/im_110000_c_a800.png
+
+newmtl im_10000_c_2300
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_10000_c_2300.png
+map_tr textures/im_10000_c_2300.png
+
+newmtl im_0_c_400
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_0_c_400.png
+map_tr textures/im_0_c_400.png
+
+newmtl im_0_c_700
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_0_c_700.png
+map_tr textures/im_0_c_700.png
+
+newmtl im_10000_c_2400
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_10000_c_2400.png
+map_tr textures/im_10000_c_2400.png
+
+newmtl im_e0000_c_ec00
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_e0000_c_ec00.png
+map_tr textures/im_e0000_c_ec00.png
+
+newmtl im_10000_c_1500
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_10000_c_1500.png
+map_tr textures/im_10000_c_1500.png
+
+newmtl im_110000_c_b000
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_110000_c_b000.png
+map_tr textures/im_110000_c_b000.png
+
+newmtl im_0_c_500
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_0_c_500.png
+map_tr textures/im_0_c_500.png
+
+newmtl im_10000_c_a00
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_10000_c_a00.png
+map_tr textures/im_10000_c_a00.png
+
+newmtl im_10000_c_2100
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_10000_c_2100.png
+map_tr textures/im_10000_c_2100.png
+
+newmtl im_120000_c_12c00
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_120000_c_12c00.png
+map_tr textures/im_120000_c_12c00.png
+
+newmtl im_10000_c_1f00
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_10000_c_1f00.png
+map_tr textures/im_10000_c_1f00.png
+
+newmtl im_10000_c_c00
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_10000_c_c00.png
+map_tr textures/im_10000_c_c00.png
+
+newmtl im_e0000_c_c800
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_e0000_c_c800.png
+map_tr textures/im_e0000_c_c800.png
+
+newmtl im_110000_c_b400
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_110000_c_b400.png
+map_tr textures/im_110000_c_b400.png
+
+newmtl im_10000_c_1b00
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_10000_c_1b00.png
+map_tr textures/im_10000_c_1b00.png
+
+newmtl im_120000_c_c400
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_120000_c_c400.png
+map_tr textures/im_120000_c_c400.png
+
+newmtl im_10000_c_1c00
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_10000_c_1c00.png
+map_tr textures/im_10000_c_1c00.png
+
+newmtl im_10000_c_1800
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_10000_c_1800.png
+map_tr textures/im_10000_c_1800.png
+
+newmtl im_130000_c_fc00
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_130000_c_fc00.png
+map_tr textures/im_130000_c_fc00.png
+
+newmtl im_10000_c_1600
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_10000_c_1600.png
+map_tr textures/im_10000_c_1600.png
+
+newmtl im_10000_c_1e00
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_10000_c_1e00.png
+map_tr textures/im_10000_c_1e00.png
+
+newmtl im_130000_c_11800
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_130000_c_11800.png
+map_tr textures/im_130000_c_11800.png
+
+newmtl im_10000_c_1700
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_10000_c_1700.png
+map_tr textures/im_10000_c_1700.png
+
+newmtl im_130000_c_e800
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_130000_c_e800.png
+map_tr textures/im_130000_c_e800.png
+
+newmtl im_10000_c_100
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_10000_c_100.png
+map_tr textures/im_10000_c_100.png
+
+newmtl im_120000_c_12400
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_120000_c_12400.png
+map_tr textures/im_120000_c_12400.png
+
+newmtl im_120000_c_10c00
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_120000_c_10c00.png
+map_tr textures/im_120000_c_10c00.png
+
+newmtl im_130000_c_e400
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_130000_c_e400.png
+map_tr textures/im_130000_c_e400.png
+
+newmtl im_130000_c_11c00
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_130000_c_11c00.png
+map_tr textures/im_130000_c_11c00.png
+
+newmtl im_130000_c_11400
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_130000_c_11400.png
+map_tr textures/im_130000_c_11400.png
+
+newmtl im_0_c_200
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_0_c_200.png
+map_tr textures/im_0_c_200.png
+
+newmtl im_10000_c_e00
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_10000_c_e00.png
+map_tr textures/im_10000_c_e00.png
+
+newmtl im_0_c_1d00
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_0_c_1d00.png
+map_tr textures/im_0_c_1d00.png
+
+newmtl im_120000_c_c000
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_120000_c_c000.png
+map_tr textures/im_120000_c_c000.png
+
+newmtl im_60000_c_3800
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_60000_c_3800.png
+map_tr textures/im_60000_c_3800.png
+
+newmtl im_e0000_c_7800
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_e0000_c_7800.png
+map_tr textures/im_e0000_c_7800.png
+
+newmtl im_f0000_c_8800
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_f0000_c_8800.png
+map_tr textures/im_f0000_c_8800.png
+
+newmtl im_70000_c_3c00
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_70000_c_3c00.png
+map_tr textures/im_70000_c_3c00.png
+
+newmtl im_80000_c_4000
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_80000_c_4000.png
+map_tr textures/im_80000_c_4000.png
+
+newmtl im_20000_c_2800
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_20000_c_2800.png
+map_tr textures/im_20000_c_2800.png
+
+newmtl im_90000_c_4400
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/im_90000_c_4400.png
+map_tr textures/im_90000_c_4400.png
+

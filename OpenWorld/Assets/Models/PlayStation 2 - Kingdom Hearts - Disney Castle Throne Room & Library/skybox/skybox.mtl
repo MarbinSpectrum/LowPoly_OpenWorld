@@ -1,0 +1,18 @@
+newmtl skybox_0_0
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/skybox_0_0.png
+map_tr textures/skybox_0_0.png
+
+newmtl skybox_1_0
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/skybox_1_0.png
+map_tr textures/skybox_1_0.png
+

@@ -1,0 +1,9 @@
+newmtl ext_10003_0
+illum 2
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+map_Kd textures/ext_10003_0.png
+map_tr textures/ext_10003_0.png
+
