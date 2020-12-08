@@ -7,6 +7,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Door Handle
+    second: {fileID: 2100000, guid: 93bf8225dc89edf4a9192583ba7434f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Genteng
     second: {fileID: 2100000, guid: d5dc2f15f948058488aa779c113be7ef, type: 2}
   - first:

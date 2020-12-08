@@ -125,7 +125,7 @@ Material:
     - _Base_Speed: 0
     - _BlurLevelMatcap: 0
     - _BlurLevelSGM: 0
-    - _BumpScale: 1
+    - _BumpScale: 0
     - _BumpScaleMatcap: 1
     - _CameraRolling_Stabilizer: 0
     - _ColorShift_Speed: 0
