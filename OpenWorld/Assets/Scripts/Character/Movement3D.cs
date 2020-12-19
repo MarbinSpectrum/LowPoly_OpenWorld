@@ -1,11 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Sirenix.OdinInspector;
 
 public class Movement3D : MonoBehaviour
 {
+    [LabelText("이동 속도")]
+    [MinValue(0)]
+    public float moveSpeed = 5.0f;   // 이동 속도
+
+    [LabelText("중력 계수")]
+    [ReadOnly]
     [SerializeField]
-    private float moveSpeed = 5.0f;   // 이동 속도
     private float gravity = -9.8f;    // 중력 계수
     private Vector3 moveDirection;    // 이동 방향
 
