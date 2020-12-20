@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Cloth1
-  m_Shader: {fileID: 4800000, guid: bee44b4a58655ee4cbff107302a3e131, type: 3}
+  m_Shader: {fileID: 4800000, guid: 0daa94f23f43f498b822cfbfc22c6689, type: 3}
   m_ShaderKeywords: _CELPRIMARYMODE_SINGLE _TEXTUREBLENDINGMODE_MULTIPLY _UNITYSHADOWMODE_NONE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -71,7 +71,7 @@ Material:
     - _CelNumSteps: 3
     - _CelPrimaryMode: 1
     - _Cull: 2
-    - _Cutoff: 0.5
+    - _Cutoff: 0.001
     - _DetailNormalMapScale: 1
     - _DirectionPitch: 0
     - _DirectionYaw: 0
@@ -124,7 +124,7 @@ Material:
     - _Color: {r: 0.41654244, g: 0.8000001, b: 0.20921503, a: 1}
     - _Color1: {r: 0, g: 0.7, b: 0.74, a: 0}
     - _Color2: {r: 0.96999997, g: 0.67, b: 0.50999993, a: 0}
-    - _ColorDim: {r: 0.2645836, g: 0.509434, b: 0.1321645, a: 1}
+    - _ColorDim: {r: 0.26458356, g: 0.509434, b: 0.13216445, a: 1}
     - _ColorDimCurve: {r: 0.85023, g: 0.85034, b: 0.8504499, a: 0.85056}
     - _ColorDimExtra: {r: 0.85023, g: 0.85034, b: 0.8504499, a: 0.85056}
     - _ColorDimSteps: {r: 0.85023, g: 0.85034, b: 0.8504499, a: 0.85056}

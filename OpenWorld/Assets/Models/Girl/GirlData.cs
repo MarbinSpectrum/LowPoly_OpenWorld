@@ -33,6 +33,10 @@ public class GirlData : MonoBehaviour
     [ColorPalette("Cloth")]
     public Color cloth_Color;
 
+    [Title("투명여부")]
+    [LabelText("투명")]
+    public bool alpha;
+
     [Space(60)]
     [Title("")]
 
@@ -77,7 +81,6 @@ public class GirlData : MonoBehaviour
         mpb.SetColor("_Color", hair_Color);
         mpb.SetColor("_ColorDim", hair_Color*1.5f);
         mpb.SetColor("_ColorDimExtra", hair_Color);
-        mpb.SetColor("_ColorDimExtra", hair_Color);
         meshRenderer.SetPropertyBlock(mpb, 0);
 
         //피부 색상
@@ -118,6 +121,23 @@ public class GirlData : MonoBehaviour
         meshRenderer.GetPropertyBlock(mpb, 2);
         mpb.SetTexture("_MainTex", mouth_Tex[mouth_Num]);
         meshRenderer.SetPropertyBlock(mpb, 2);
+
+        for(int i = 0; i < 10;i++)
+        {
+            Color temp;
+            //기타
+            meshRenderer.GetPropertyBlock(mpb, i);
+            temp = mpb.GetColor("_Color");
+            temp = new Color(temp.r, temp.g, temp.b, alpha ? 0 : 1);
+            mpb.SetColor("_Color", temp);
+            temp = mpb.GetColor("_ColorDim");
+            temp = new Color(temp.r, temp.g, temp.b, alpha ? 0 : 1);
+            mpb.SetColor("_ColorDim", temp);
+            temp = mpb.GetColor("_ColorDimExtra");
+            temp = new Color(temp.r, temp.g, temp.b, alpha ? 0 : 1);
+            mpb.SetColor("_ColorDimExtra", temp);
+            meshRenderer.SetPropertyBlock(mpb, i);
+        }
 
     }
 }

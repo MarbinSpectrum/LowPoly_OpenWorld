@@ -700,6 +700,7 @@ GameObject:
   - component: {fileID: 532493876694017228}
   - component: {fileID: 5039992139549923603}
   - component: {fileID: 5024451443611713288}
+  - component: {fileID: 8735473602827120279}
   m_Layer: 0
   m_Name: Guy
   m_TagString: Player
@@ -774,6 +775,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   gravity: -9.8
+  nowMove: 0
 --- !u!114 &5024451443611713288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -784,6 +786,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 95334f29b502b1043856e368a3a8684c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8735473602827120279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4430397784501879099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3a2984a20cccab469190659a86c861f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4525728435339903262

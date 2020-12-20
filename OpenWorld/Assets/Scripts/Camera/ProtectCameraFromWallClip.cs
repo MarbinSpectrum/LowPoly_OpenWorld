@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class ProtectCameraFromWallClip : MonoBehaviour
 {
+    private const string MOUSE_SCROLLWHEEL = "Mouse ScrollWheel";
+
+
     public float clipMoveTime = 0.05f;
     public float returnTime = 0.4f;
     public float sphereCastRadius = 0.1f;
@@ -14,6 +17,7 @@ public class ProtectCameraFromWallClip : MonoBehaviour
 
     private Transform m_Cam;
     private Transform m_Pivot;
+    private float m_BaselDist;
     private float m_OriginalDist;
     private float m_MoveVelocity;
     private float m_CurrentDist;
@@ -26,6 +30,7 @@ public class ProtectCameraFromWallClip : MonoBehaviour
         m_Cam = GetComponentInChildren<Camera>().transform;
         m_Pivot = m_Cam.parent;
         m_OriginalDist = m_Cam.localPosition.magnitude;
+        m_BaselDist = m_OriginalDist;
         m_CurrentDist = m_OriginalDist;
     }
 
@@ -33,6 +38,11 @@ public class ProtectCameraFromWallClip : MonoBehaviour
     private void LateUpdate()
     {
         float targetDist = m_OriginalDist;
+
+        float scroll = Input.GetAxis(MOUSE_SCROLLWHEEL);
+        m_OriginalDist -= scroll;
+        m_OriginalDist = Mathf.Max(closestDistance, m_OriginalDist);
+        m_OriginalDist = Mathf.Min(m_BaselDist, m_OriginalDist);
 
         m_Ray.origin = m_Pivot.position + m_Pivot.forward * sphereCastRadius;
         m_Ray.direction = -m_Pivot.forward;
@@ -46,6 +56,9 @@ public class ProtectCameraFromWallClip : MonoBehaviour
 
         for (int i = 0; i < m_RayCount; i++)
         {
+            if (cols[i] == null)
+                continue;
+
             if ((!cols[i].isTrigger) &&
                 !(cols[i].attachedRigidbody != null && cols[i].attachedRigidbody.CompareTag(dontClipTag)))
             {
@@ -68,15 +81,22 @@ public class ProtectCameraFromWallClip : MonoBehaviour
         RayHitSort.Instance.Sort(m_Hits,0, m_HitCount);
 
         float nearest = Mathf.Infinity;
-
+        RaycastHit hitray = new RaycastHit();
         for (int i = 0; i < m_HitCount; i++)
         {
+            if (m_Hits[i].collider == null)
+                continue;
+
+            if (m_Hits[i].transform.tag.Equals(dontClipTag))
+                continue;
+
             if (m_Hits[i].distance < nearest && (!m_Hits[i].collider.isTrigger) &&
                 !(m_Hits[i].collider.attachedRigidbody != null &&
                   m_Hits[i].collider.attachedRigidbody.CompareTag(dontClipTag)))
             {
                 nearest = m_Hits[i].distance;
                 targetDist = -m_Pivot.InverseTransformPoint(m_Hits[i].point).z;
+                hitray = m_Hits[i];
                 hitSomething = true;
             }
         }

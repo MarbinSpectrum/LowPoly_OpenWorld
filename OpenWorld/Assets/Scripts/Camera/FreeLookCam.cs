@@ -15,6 +15,7 @@ public class FreeLookCam : PivotBasedCameraRig
     [SerializeField] private float m_TiltMin = 45f;
     [SerializeField] private bool m_LockCursor = false;
     [SerializeField] private bool m_VerticalAutoReturn = false;
+    [Range(-8f, -3f)] [SerializeField] private float cameraDistance;
     [Range(0f, 360f)] [SerializeField] protected float startAngle;
 
     [HideInInspector] public float m_LookAngle;
@@ -41,6 +42,7 @@ public class FreeLookCam : PivotBasedCameraRig
     {
         m_LookAngle = startAngle;
         HandleRotationMovement();
+        Camera.main.transform.position = new Vector3(0, 0, cameraDistance);
     }
 
     protected void Update()

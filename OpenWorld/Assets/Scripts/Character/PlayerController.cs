@@ -2,9 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Movement3D))]
 public class PlayerController : MonoBehaviour
 {
     private Movement3D movement3D;
+
+    private const string HORIZONTAL = "Horizontal";
+    private const string VERTICAL = "Vertical";
 
     private void Update()
     {
@@ -13,12 +17,14 @@ public class PlayerController : MonoBehaviour
         if (FreeLookCam.instance == null)
             return;
 
-        float x = Input.GetAxisRaw("Horizontal");
-        float z = Input.GetAxisRaw("Vertical");
+        float z = Input.GetAxisRaw(VERTICAL);
+        float x = Input.GetAxisRaw(HORIZONTAL);
 
-        Quaternion.Euler(0, 0, FreeLookCam.instance.m_LookAngle);
+        Vector3 dir = FreeLookCam.instance.transform.localRotation * Vector3.forward;
+        Vector3 zDir = dir * z;
+        Vector3 xDir = (Quaternion.Euler(0, 90, 0) * dir) * x;
 
-        movement3D.MoveTo(Quaternion.Euler(0, 0, FreeLookCam.instance.m_LookAngle) * new Vector3(x, 0, z));
+        movement3D.MoveTo(xDir + zDir);
 
     }
 }

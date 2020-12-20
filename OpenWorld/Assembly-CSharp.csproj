@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Models\Girl\GirlAlpha.cs" />
     <Compile Include="Assets\Models\Girl\GirlData.cs" />
     <Compile Include="Assets\Models\Guy\GuyData.cs" />
     <Compile Include="Assets\Models\Low Poly Modular Terrain Pack\Bonus_Assets\Scripts\ModularTerrainCameraControl.cs" />
@@ -74,6 +75,7 @@
     <Compile Include="Assets\Scripts\Camera\PivotBasedCameraRig.cs" />
     <Compile Include="Assets\Scripts\Camera\ProtectCameraFromWallClip.cs" />
     <Compile Include="Assets\Scripts\Character\Movement3D.cs" />
+    <Compile Include="Assets\Scripts\Character\PlayerAnimator.cs" />
     <Compile Include="Assets\Scripts\Character\PlayerController.cs" />
     <Compile Include="Assets\Scripts\RayHitSort.cs" />
     <Compile Include="Assets\Scripts\Sorter.cs" />
