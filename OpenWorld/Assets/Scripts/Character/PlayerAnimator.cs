@@ -2,21 +2,33 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Movement3D))]
 [RequireComponent(typeof(Animator))]
 public class PlayerAnimator : MonoBehaviour
 {
-    private Animator animator;
-    private Movement3D movement3D;
+    [HideInInspector]
+    public Animator animator;
 
     private void Update()
     {
-        if (movement3D == null)
-            movement3D = GetComponent<Movement3D>();
         if (animator == null)
             animator = GetComponent<Animator>();
+    }
 
-        animator.SetBool("Run", movement3D.nowMove);
+    public int NowAttack()
+    {
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Attack0"))
+            return 0;
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Attack1"))
+            return 1;
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Attack2"))
+            return 2;
+        return -1;
+    }
 
+    public float NowAttackTime()
+    {
+        if(NowAttack() >= 0)
+            return animator.GetCurrentAnimatorStateInfo(0).normalizedTime;
+        return -1;
     }
 }
