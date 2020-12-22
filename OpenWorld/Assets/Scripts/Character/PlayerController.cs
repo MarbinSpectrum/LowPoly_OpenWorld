@@ -11,7 +11,9 @@ public class PlayerController : MonoBehaviour
 
     private const string HORIZONTAL = "Horizontal";
     private const string VERTICAL = "Vertical";
-
+    private const string MOVE = "Move";
+    private const string RUN = "Run";
+    private const KeyCode JUMP_KEYCODE = KeyCode.Space;
     private bool canMove;
 
     private void Update()
@@ -25,34 +27,14 @@ public class PlayerController : MonoBehaviour
 
         PlayerAttack();
         PlayerMove();
-    }
-
-    public void PlayerMove()
-    {
-        float z = 0;
-        float x = 0;
-
-        if (playerAnimator.NowAttack() == -1)
-        {
-            z = Input.GetAxisRaw(VERTICAL);
-            x = Input.GetAxisRaw(HORIZONTAL);
-        }
-
-        Vector3 dir = FreeLookCam.instance.transform.localRotation * Vector3.forward;
-        Vector3 zDir = dir * z;
-        Vector3 xDir = (Quaternion.Euler(0, 90, 0) * dir) * x;
-        movement3D.TurnRotaion(x, z);
-        movement3D.MoveTo(xDir + zDir);
-
-        playerAnimator.animator.SetBool("Move", movement3D.nowMove);
-        playerAnimator.animator.SetBool("Run", movement3D.run);
+        PlayerJump();
     }
 
     public void PlayerAttack()
     {
         if (Input.GetMouseButtonUp(0))
         {
-            if (playerAnimator.NowAttack() == -1)
+            if (playerAnimator.NowAttack() < 0)
                 playerAnimator.animator.SetTrigger("Attack");
             else if (playerAnimator.NowAttack() == 0 && playerAnimator.NowAttackTime() > 0.6f)
                 playerAnimator.animator.SetTrigger("Attack");
@@ -60,6 +42,43 @@ public class PlayerController : MonoBehaviour
                 playerAnimator.animator.SetTrigger("Attack");
             else if (playerAnimator.NowAttack() == 2 && playerAnimator.NowAttackTime() > 0.6f)
                 playerAnimator.animator.SetTrigger("Attack");
+            else if (playerAnimator.NowAttack() == 3 && playerAnimator.NowAttackTime() > 0.6f)
+                playerAnimator.animator.SetTrigger("Attack");
         }
     }
+
+    public void PlayerMove()
+    {
+        float z = 0;
+        float x = 0;
+
+        if (playerAnimator.NowAttack() < 0)
+        {
+            z = Input.GetAxisRaw(VERTICAL);
+            x = Input.GetAxisRaw(HORIZONTAL);
+        }
+
+        movement3D.TurnRotaion(x, z);
+        movement3D.MoveTo(new Vector3(x, 0, z));
+
+        playerAnimator.animator.SetBool(MOVE, movement3D.nowMove);
+        playerAnimator.animator.SetBool(RUN, movement3D.run);
+    }
+
+    public void PlayerJump()
+    {
+        if (!movement3D.characterController)
+            return;
+
+        if (Input.GetKeyDown(JUMP_KEYCODE))
+        {
+            movement3D.Jump();
+            if(movement3D.characterController.isGrounded)
+                playerAnimator.animator.SetTrigger("Jump");
+        }
+
+        playerAnimator.animator.SetBool("Ground", movement3D.characterController.isGrounded);
+
+    }
+
 }

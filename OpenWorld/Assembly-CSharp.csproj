@@ -84,6 +84,7 @@
     <Compile Include="Assets\Toon\FlatKit\Scripts\UvScroller.cs" />
     <Compile Include="Assets\Toon\FlatKit\[Render Pipeline] Built-in\ImageEffects\Scripts\FogImageEffect.cs" />
     <Compile Include="Assets\Toon\FlatKit\[Render Pipeline] Built-in\ImageEffects\Scripts\OutlineImageEffect.cs" />
+    <Compile Include="Assets\Toon\WeaponToon\WeaponEquit.cs" />
     <Compile Include="Assets\Water\Scripts\MakeSomeNoise.cs" />
     <Compile Include="Assets\Water\Scripts\WaterPlaneGen.cs" />
     <None Include="Assets\Models\Free Low Poly Desert Pack\Materials\Shaders\Vertex_Color_Unlit.shader" />
@@ -203,6 +204,7 @@
     <None Include="Assets\Toon\UTS\Shader\Tess\UCTS_DoubleShadeWithFeather_tess.cginc" />
     <None Include="Assets\Toon\UTS\Shader\Tess\Toon_ShadingGradeMap_TransClipping_Tess_StencilMask.shader" />
     <None Include="Assets\Toon\UTS\Shader\Toon_ShadingGradeMap_AngelRing_Mobile_StencilOut.shader" />
+    <None Include="Assets\Toon\WeaponToon\ToonComplete Y Cut.shader" />
     <None Include="Assets\Toon\UTS\Shader\Tess\UCTS_ShadingGradeMap_tess.cginc" />
     <None Include="Assets\Toon\UTS\Shader\ToonColor_ShadingGradeMap_TransClipping.shader" />
     <None Include="Assets\Toon\UTS\Shader\Toon_DoubleShadeWithFeather_Clipping_StencilOut.shader" />

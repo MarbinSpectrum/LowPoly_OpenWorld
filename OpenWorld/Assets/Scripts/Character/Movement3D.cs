@@ -10,6 +10,10 @@ public class Movement3D : MonoBehaviour
     [MinValue(0)]
     public float moveSpeed = 5.0f;   // 이동 속도
 
+    [LabelText("점프력")]
+    [MinValue(0)]
+    public float jumpPower = 3.0f;   // 이동 속도
+
     [LabelText("최대 스테미너")]
     [MinValue(0)]
     public float maxStamina = 5.0f;   // 최대 스테미너
@@ -27,7 +31,8 @@ public class Movement3D : MonoBehaviour
     float stamina = 5;
     bool staminaFlag;
 
-    private CharacterController characterController;
+    [HideInInspector]
+    public CharacterController characterController;
     private float turnTime = 0;
     private float turnDic;
     private float nowturnDic;
@@ -53,6 +58,7 @@ public class Movement3D : MonoBehaviour
         TurnMng();
     }
 
+
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     public void MoveMng()
     {
@@ -61,19 +67,32 @@ public class Movement3D : MonoBehaviour
 
         //이동
         float nowSpeed = moveSpeed;
-        if (Input.GetKeyDown(KeyCode.LeftShift) && nowMove && stamina > 0)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && 
+            nowMove &&  stamina > 0)
             run = true;
         if (!nowMove)
             run = false;
         if (run)
             nowSpeed *= 1.5f;
-        characterController.Move(moveDirection * moveSpeed * Time.deltaTime);
+        Vector3 move = moveDirection * moveSpeed * Time.deltaTime;
+
+        characterController.Move(move);
     }
 
     public void MoveTo(Vector3 dircetion)
     {
-        moveDirection = dircetion.normalized;
+        Vector3 movedis = FreeLookCam.instance.transform.localRotation * dircetion;
+        moveDirection = new Vector3(movedis.x, moveDirection.y, movedis.z);
     }
+
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    
+    public void Jump()
+    {
+        if (characterController.isGrounded)
+            moveDirection.y = jumpPower;
+    }
+
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
